@@ -2,13 +2,26 @@
 <html lang="cz">
 <head>
     <title>Tasty Cakes</title>
+    <meta charset="UTF-8">
+    <title>Animované pozadí</title>
+    <style>
+        @keyframes pohyb {
+            0% { background-position: 0 0; }
+            100% { background-position: 100% 100%; }
+        }
+        body {
+            background: linear-gradient(45deg, #ffb0b2, #ffffff, #ffb0b2);
+            background-size: 100% 100%;
+            animation: pohyb 5s infinite alternate;
+        }
+    </style>
 </head>
 <body>
     <!--other stuff-->
 <p style="background-color: beige;"></p>
 
     <!-- top of the site -->
-    <p style="color: rgb(0, 0, 0); font-size: xx-large; text-align: center; font-family:'Courier New', Courier, monospace" >Failed Attempts At Making Cakes</p>
+    <p style="color: rgb(0, 0, 0); font-size: xx-large; text-align: center;>Failed Attempts At Making Cakes"></p>
     <hr style="width: 50%; height: 2px; background-color: black; border: none;">
     <div style="margin-top: 150px;"></div>
 
