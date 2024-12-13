@@ -4,7 +4,14 @@
     <title>Tasty Cakes</title>
     <style>
         body {
-            background-color: pink; 
+            background: linear-gradient(90deg, #ffe799, #8dd2fa);
+            background-size: 200% 200%;
+            animation: gradientAnimation 5s ease infinite;
+        }
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
         }
     </style>
 </head>
@@ -46,5 +53,8 @@
 
    <!--hulk-->
    <img src="images/hulk.jpeg" alt="" style="width: 30%;height: auto;border-radius: 20px;">
+   <div style="margin-top: 20px;"></div>
+   <p style="font-family: fantasy;font-size: large;">"Asked my mom for a Hulk cake. Nailed it."</p>
+   <p><a href="https://imgur.com/asked-mom-hulk-cake-nailed-lJnDUu7">imugr.com</a></p>
    </div>
 </html>
